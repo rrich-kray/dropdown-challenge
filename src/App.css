@@ -1,0 +1,170 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+}
+
+#nav {
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999
+}
+
+.container-left {
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+#links-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* 
+==============
+Dropdown
+==============
+*/
+
+#links-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#links-list li {
+  list-style-type: none;
+}
+
+#links-list li a {
+  text-decoration: none;
+  color: black;
+  position: relative
+}
+
+.dropdown {
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.dropdown a {
+  color: rgba(100, 100, 100, 0.75);
+  margin-bottom: 10px;
+}
+
+#links-list li:hover > .dropdown {
+  visibility: visible;
+}
+
+/* 
+==============
+Dropdown
+==============
+*/  
+  
+.container-left span {
+  margin-right: 5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-left a {
+  margin-right: 1rem
+}
+
+.container-right {
+  padding: 1rem;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-btn {
+  margin: 2rem;
+  height: 3.5rem;
+  width: 7rem;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  background: none;
+  cursor: pointer;
+}
+
+.login {
+  border: none;
+}
+
+.register {
+  border: 2px solid black;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex
+}
+
+#main-left-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content-container {
+  height: 75%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#content-container h1 {
+  font-size: 5rem
+}
+
+#content-container p {
+  font-size: 1rem;
+  color: rgba(100, 100, 100, 0.75);
+  margin-bottom:2rem
+}
+
+#content-container h1 {
+  font-size: 5rem
+}
+
+#content-container button {
+  height: 3rem;
+  width: 8rem;
+  border-radius: 30px;
+  background: none;
+  cursor: pointer;
+}
+
+#main-right-container {
+  width: 50%;
+  height: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+#main-right-container img {
+  max-height: 100%;
+  height: 75%;
+}
