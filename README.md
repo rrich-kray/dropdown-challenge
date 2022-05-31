@@ -1,6 +1,6 @@
 # Dropdown Landing Page
 
-This repository contains the source code for the Dropdown Landing Page project.
+This repository contains the source code for the Dropdown Challenge project.
 
 ## Description
 
