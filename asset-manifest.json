@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/dropdown-landing/static/css/main.b15723df.css",
-    "main.js": "/dropdown-landing/static/js/main.ece33c28.js",
+    "main.css": "/dropdown-landing/static/css/main.658c78d9.css",
+    "main.js": "/dropdown-landing/static/js/main.d82f3a3b.js",
     "static/media/image-hero-desktop.png": "/dropdown-landing/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "index.html": "/dropdown-landing/index.html",
-    "main.b15723df.css.map": "/dropdown-landing/static/css/main.b15723df.css.map",
-    "main.ece33c28.js.map": "/dropdown-landing/static/js/main.ece33c28.js.map"
+    "main.658c78d9.css.map": "/dropdown-landing/static/css/main.658c78d9.css.map",
+    "main.d82f3a3b.js.map": "/dropdown-landing/static/js/main.d82f3a3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b15723df.css",
-    "static/js/main.ece33c28.js"
+    "static/css/main.658c78d9.css",
+    "static/js/main.d82f3a3b.js"
   ]
 }
