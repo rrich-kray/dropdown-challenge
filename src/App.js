@@ -12,7 +12,11 @@ function App() {
     },
     {
       link: "Careers",
-      menuItems: ["Placeholder", "Placeholder", "Placeholder"],
+      menuItems: [
+        "How we change lives",
+        "Veteran's program",
+        "View open positions",
+      ],
     },
     {
       link: "About",

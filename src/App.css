@@ -33,13 +33,15 @@ Dropdown
 
 #links-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 100%;
+  width: 75%;
 }
 
 #links-list li {
   list-style-type: none;
+  font-size: 1.25rem
 }
 
 #links-list li a {
@@ -54,13 +56,28 @@ Dropdown
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 15px;
+  padding: 20px;
   border-radius: 12px;
+  animation: growDown 300ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0)
+  }
+  80% {
+    transform: scaleY(1.1)
+  }
+  100% {
+    transform: scaleY(1);
+  }
 }
 
 .dropdown a {
   color: rgba(100, 100, 100, 0.75);
   margin-bottom: 10px;
+  font-weight: bold
 }
 
 #links-list li:hover > .dropdown {
@@ -166,5 +183,5 @@ Dropdown
 
 #main-right-container img {
   max-height: 100%;
-  height: 75%;
+  height: 90%;
 }
