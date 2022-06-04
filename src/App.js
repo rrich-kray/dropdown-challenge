@@ -31,7 +31,7 @@ function App() {
           <span>snap</span>
           <ul id="links-list">
             {links.map((link) => (
-              <li>
+              <li key={link.link}>
                 <a href="#">{link.link}</a>
                 <div className="dropdown">
                   {link.menuItems.map((menuItem) => (
